@@ -38,7 +38,7 @@ function showNotes() {
             <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Note ${index + 1}</h5><hr>
-                        <p>${element.date  }</p><hr>
+                        <h6>${element.date  }</h6><hr>
                         <p class="card-text"> ${element.title}</p>
                         
                         <button id="${index}"onclick="deleteNote(this.id)" type="button" class="btn btn-outline-danger">Delete Note</button>
